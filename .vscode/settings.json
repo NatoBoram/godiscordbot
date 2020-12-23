@@ -1,0 +1,20 @@
+{
+	"[markdown]": {
+		"editor.rulers": [
+			80,
+		],
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true,
+		"source.organizeImports": true,
+		"source.sortMembers": true
+	},
+	"editor.formatOnSave": true,
+	"files.insertFinalNewline": true,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true,
+	"git.autoStash": true,
+	"git.autofetch": true,
+	"git.confirmSync": false,
+	"git.enableSmartCommit": true,
+}

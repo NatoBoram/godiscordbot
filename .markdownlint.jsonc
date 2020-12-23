@@ -1,0 +1,5 @@
+{
+	"default": true,
+	// Required for the changelog
+	"no-duplicate-header": false
+}

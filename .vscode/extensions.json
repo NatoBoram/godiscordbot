@@ -1,0 +1,26 @@
+{
+	"recommendations": [
+		"davidanson.vscode-markdownlint",
+		"donjayamanne.githistory",
+		"eamodio.gitlens",
+		"editorconfig.editorconfig",
+		"felipecaputo.git-project-manager",
+		"github.vscode-pull-request-github",
+		"golang.go",
+		"icrawl.discord-vscode",
+		"ms-cst-e.vscode-devskim",
+		"ms-vscode.github-issues-prs"
+	],
+	"unwantedRecommendations": [
+		"christian-kohler.npm-intellisense",
+		"dbaeumer.jshint",
+		"dbaeumer.vscode-eslint",
+		"eg2.vscode-npm-script",
+		"firefox-devtools.vscode-firefox-debug",
+		"hookyqr.beautify",
+		"ms-azuretools.vscode-docker",
+		"ms-edgedevtools.vscode-edge-devtools",
+		"ms-vscode-remote.remote-wsl",
+		"msjsdiag.debugger-for-chrome"
+	]
+}
