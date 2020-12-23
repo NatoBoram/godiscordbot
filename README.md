@@ -1,6 +1,7 @@
 # How to create a Discord bot
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/NatoBoram/godiscordbot)](https://goreportcard.com/report/github.com/NatoBoram/godiscordbot)
+[![Go](https://github.com/NatoBoram/godiscordbot/workflows/Go/badge.svg?branch=master)](https://github.com/NatoBoram/godiscordbot/actions?query=workflow%3AGo)
 
 ## Requirements
 
