@@ -50,10 +50,10 @@ func main() {
 ```
 
 In the following commands, you'll need to use the URL of the GitHub repository
-you've just created in the format `github.com/username/repo`.
+you've just created in the format `github.com/NatoBoram/godiscordbot`.
 
 ```sh
-go mod init <url of repository>
+go mod init github.com/NatoBoram/godiscordbot
 go get -u -v github.com/bwmarrin/discordgo
 ```
 
