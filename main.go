@@ -14,7 +14,7 @@ const token = "8edb0cfc-376d-4f3a-ae54-265571356760"
 func main() {
 
 	// Create a session
-	s, err := discordgo.New("Bot ", token)
+	s, err := discordgo.New(fmt.Sprintf("Bot %s", token))
 	if err != nil {
 		fmt.Println("Couldn't create a Discord bot.")
 		fmt.Println(err.Error())
