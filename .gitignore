@@ -1,7 +1,13 @@
-# Created by https://www.toptal.com/developers/gitignore/api/go,linux,macos,windows,vscode
-# Edit at https://www.toptal.com/developers/gitignore?templates=go,linux,macos,windows,vscode
+godiscordbot
+godiscordbot.exe
+
+# Created by https://www.toptal.com/developers/gitignore/api/go,linux,macos,windows
+# Edit at https://www.toptal.com/developers/gitignore?templates=go,linux,macos,windows
 
 ### Go ###
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
 # Binaries for programs and plugins
 *.exe
 *.exe~
@@ -18,9 +24,8 @@
 # Dependency directories (remove the comment below to include it)
 # vendor/
 
-### Go Patch ###
-/vendor/
-/Godeps/
+# Go workspace file
+go.work
 
 ### Linux ###
 *~
@@ -65,13 +70,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-### vscode ###
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+### macOS Patch ###
+# iCloud generated files
+*.icloud
 
 ### Windows ###
 # Windows thumbnail cache files
@@ -99,4 +100,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/go,linux,macos,windows,vscode
+# End of https://www.toptal.com/developers/gitignore/api/go,linux,macos,windows
